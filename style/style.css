@@ -1,6 +1,7 @@
 * {
     font-family: 'Nunito';
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -47,9 +48,17 @@ header {
     background-color: #0AA;
 }
 
+#home-placeholder {
+    border: 1px solid red;
+}
+
 .home-image {
     width: 100%;
     height: calc(100vh - 5rem);
+}
+
+.home-message {
+    border: 1px solid blue;
 }
 
 .pages-title-box {
