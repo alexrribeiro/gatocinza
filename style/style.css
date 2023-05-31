@@ -41,7 +41,8 @@ header {
 
 .header-faixa1 {
     border-bottom: 2px solid white;
-    width: 12rem;
+    width: 184px;
+    /* width: 12rem; */
     position: absolute;
     top: 4rem;
     left: 1rem;
@@ -50,17 +51,19 @@ header {
 
 .header-faixa-d {
     border-bottom: 2px solid white;
-    width: 4.75rem;
+    /* width: 4.4rem; */
+    width: 66px;
     rotate: 135deg;
     position: absolute;
-    left: 12.75rem;
+    left: calc(190px);
     top: 2.5rem;
     height: 1px;
 }
 
 .header-faixa2 {
     border-top: 2px solid white;
-    width: calc(100vw - 18.25rem);
+    /* width: calc(100vw - 17.9rem); */
+    width: calc(100% - 262.08px);
     height: 1px;
     position: absolute;
     right: 1rem;
@@ -96,19 +99,22 @@ header {
     float: right;
     /* background: linear-gradient(90deg,rgba(68,68,68,0),rgba(68,68,68,1)); */
     background-color: rgba(68, 68, 68, 0.7);
+    /* background-color: rgba(0, 128, 128, 0.3); */
+    /* background-color: rgba(255, 153, 0, 0.3); */
     /* border-left: 5px solid #444; */
     padding: 1rem;
     position: relative;
 }
 
 .home-message-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #CCC;
     margin-bottom: 1rem;
     position: absolute;
     bottom: 50%;
     border-left: 5px solid #FC0;
     padding-left: 0.5rem;
+    font-weight: 500;
 }
 
 .home-message-text {
@@ -118,6 +124,8 @@ header {
     top: 50%;
     border-left: 5px solid #999;
     padding-left: 0.5rem;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .pages-title-box {
