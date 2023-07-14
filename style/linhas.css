@@ -1,0 +1,40 @@
+.linhas-detalhes {
+    font-weight: bold;
+    background-color: var(--dark-gray);
+    color: var(--light-green);
+    padding: 0.25rem 0;
+}
+
+.linhas-box {
+    /* border: 1px solid orange; */
+    display: flex;
+    background-color: var(--white);
+}
+
+.linhas-ida, .linhas-volta{
+    /* border: 1px solid green; */
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.linhas-importante {
+    background-color: #EEE8AA;
+    border: 1px solid #DAA520;
+    padding: 0.4rem;
+}
+
+.linhas-tabela {
+    width: 100%;
+}
+
+.linhas-tabela th {
+    background-color: var(--dark-green);
+    color: var(--light-gray)
+}
+
+.linhas-tabela td {
+    background-color: var(--light-gray);
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+}
