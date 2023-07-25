@@ -245,7 +245,7 @@ header {
 
 .pages-content-grid {
     display: grid;
-    row-gap: 1rem;
+    row-gap: 4rem;
     column-gap: 0;
     grid-template-columns: 1fr 1fr;
     margin-right: 1rem;
@@ -267,6 +267,7 @@ header {
     font-weight: 500;
     font-size: 1.25rem;;
     padding-bottom: 0.5rem;
+    color: var(--dark-green);
 }
 
 .pages-information {
@@ -303,6 +304,15 @@ header {
     font-style: italic;
     font-weight: 300;
     padding-bottom: 0.75rem;
+}
+
+.info-link {
+    color: #476714;
+    text-decoration: none;
+}
+
+.info-link:hover {
+    text-decoration: underline;
 }
 
 .home-card {

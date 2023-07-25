@@ -38,3 +38,15 @@
     vertical-align: top;
     width: 33%;
 }
+
+.ponto-ini {
+    color: #090;
+}
+
+.ponto-int {
+    color: #009;
+}
+
+.ponto-fim {
+    color: #900;
+}
